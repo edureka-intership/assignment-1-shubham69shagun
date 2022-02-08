@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+img{
+    height:100%;
+    width:100%;
+}
+
+span{
+    font-size:small;
+}
+
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none
+}
+/* Header Start */
+header{
+    height:60px;
+    background-color:#a84900;
+}
+
+#icon{
+    float:left;
+    padding-top:8px;
+    color:white;
+    padding-left:4px;
+}
+
+#social{
+    float:right;
+    padding-top:3px;
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+#heading{
+    padding-top:15px;
+    text-align: center;
+}
+.mainContent{
+    height:700px;
+    width:75%;
+    margin-left:13%;
+    margin-top:15px;
+}
+#filter{
+    box-shadow:0 0 5px 5px #e3e3e3;
+    height:650px;
+    width:22%;
+    margin-top:20px;
+    float: left;
+}
+
+#filter>div {
+    width:80%;
+    margin:0 auto;
+}
+
+#filter>div div{
+    margin-top:10px;
+}
+
+#filter>div div span{
+    font-size:small;
+    margin-left:3px;
+}
+select{
+    padding:6px;
+    width:80%;
+    outline:none;
+    color:grey;
+}
+#cards{
+    height:700px;
+    width:75%;
+    /* box-shadow:0 0 5px 5px #e3e3e3; */
+    margin-left:2%;
+    float: left;
+}
+
+#cards .card{
+    width:90%;
+    box-shadow:0 0 5px 5px #e3e3e3;
+    height:200px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+/* footer Start */
+footer{
+    height:200px;
+    background-color:#e09c83;
+}
+
+.foot1{
+    width:35%;
+    height:120px;
+    float: left;
+    border-right:2px solid white
+}
+#cards .card .rest{
+    width:100%;
+    height:85%;
+    position:relative;
+}
+#cards .card .rest .rest_logo{
+    height:100%;
+    width:30%;
+    display:inline-block;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#cards .card .rest .rest_info{
+    height:100%;
+    display:inline-block;
+    width:40%;
+    top:0;
+    position:absolute;
+    left:30%;
+}
+
+#cards .card .rest .food_image{
+    height:100%;
+    width:25%;
+    display:inline-block;
+    position:absolute;
+    top:0;
+    left:72%;
+}
+
+#cards .card .rest .rest_info .rest_name{
+    margin-top:10px;
+}
+
+#cards .card .rest .rest_info .rest_address{
+    margin-top:10px;
+    color:grey;
+
+}
+
+#cards .card .rest .rest_info .discount{
+    margin-top:10px;
+}
+
+#cards .card .rest .rest_info .tags{
+    margin-top:20px;
+}
+
+#cards .card .rest .tags span{
+    margin-right:5px;
+    padding:2px;
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+
+footer{
+    height:150px;
+    background-color:#a84900;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    color:white;
+}
+
